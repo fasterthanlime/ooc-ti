@@ -1,0 +1,24 @@
+Intro
+=====
+
+Here's a small demo for using ooc applications on a TI89/92+/v200.
+
+It relies on tigcc as you can see from the Makefile.
+
+Also, it uses a modified ooc sdk, in ti-sdk/ with only ooclib.ooc and Object.ooc
+
+Because we use tigcc, we can't use any C99 types, nor the Boehm GC. Still, we can compile very well =)
+
+What you need
+=============
+
+  - the latest ooc (from git) http://github.com/amoswenger/ooc
+  - tigcc (a recent enough version)
+  - A TI 89/92+/v200 graphic calculator or an emulator (e.g. I used tiemu) to test it
+
+The big UChar* array in the source code was generated from manually modifying
+the result of the iStudio program. More explanations over at http://tigcc.ticalc.org/tut/pictures.txt
+
+When you run make, if everything is successful, it should've produced "showimg.89z" and "showimg.9xz".
+Send one of those file to your calculator depending if you've got a TI89 or a TI-92/v200.
+
