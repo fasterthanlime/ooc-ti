@@ -1,0 +1,9 @@
+I used iStudio to convert the images here. It can be downloaded at http://www.ticalc.org/pub/win/graphics/istudio.zip
+
+The input format must be .bmp, unfortunately, but there's a very
+nice preview and it works very well.
+
+I selected "68k" output format, in a .ASM text file, with 4-levels grayscale
+Then I copy/pasted the long $ff etc. list in the .ooc source code, replaced "$" with "0x",
+replaced "\r" with ",\r" (with a good text editor, e.g. Geany, which supports escape
+sequences in search/replace), and bingo! =)
