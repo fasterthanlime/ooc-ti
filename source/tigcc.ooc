@@ -23,6 +23,8 @@ DrawClipEllipse: extern func (Short, Short, Short, Short, SCR_RECT*, Short)
 A_NORMAL, A_XOR, SPRT_AND, SPRT_OR, SPRT_XOR: extern Int
 
 Sprite8: extern func (Short, Short, Short, Pointer, Pointer, Int)
+Sprite16: extern func (Short, Short, Short, Pointer, Pointer, Int)
+Sprite32: extern func (Short, Short, Short, Pointer, Pointer, Int)
 
 SCR_RECT: extern cover
 ScrRect: extern SCR_RECT

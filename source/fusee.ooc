@@ -70,7 +70,7 @@ _main: func {
 		
 		if(x < 0) {
 			velx = -velx
-			x = radius
+			x = 0
 		}
 		
 		if(x > LCD_WIDTH - radius * 2) {
@@ -100,11 +100,11 @@ _main: func {
 				velx = -0.6
 			} else if(code == KEY_RIGHT) {
 				velx = 0.6
-			} else {
+			}/* else {
 				if(_keytest(RR_ESC)) {
 					running = false
 				}
-			}
+			}*/
 		}
 		
 		for(j in 1..2300) {}
